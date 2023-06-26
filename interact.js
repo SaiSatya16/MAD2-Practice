@@ -14,11 +14,11 @@ async function demo(){
 }
 demo();
 
-let x =0;
+let b =0;
 const d3 = document.getElementById('d3');
-d3.innerHTML = `Click Count: ${x}`;
+d3.innerHTML = `Click Count: ${b}`;
 d3.addEventListener('click', e => {
-  x++;
-  d3.innerHTML = `Click Count: ${x}`
-  d3.style.fontSize = `${x+10}px`;
+  b++;
+  d3.innerHTML = `Click Count: ${b}`
+  d3.style.fontSize = `${b+10}px`;
 })

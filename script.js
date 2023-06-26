@@ -73,7 +73,7 @@ console.log(add.v.a);
 let add1 = (x,y) => (x+y);
 
 ///anonymous function
-console.log(function(x,y)){return x+y; }
+console.log(function(x,y){return x+y; }
 (2,3));
 
 //assigning to variables
