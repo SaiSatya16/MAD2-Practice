@@ -32,6 +32,42 @@ console.log(l);
 console.log(ss);
 console.log(m);
 
+// get and set properties
+
+let user = {
+  first : "Sai",
+  last : "Satya",
+  get full(){
+    return this.first+' '+this.last;
+  },
+  set full(f){
+    const parts = f.split(' ');
+    this.first = parts[0];
+    this.last = parts[1];
+  },
+  
+}
+console.log(user);
+console.log(user.full);
+user.full = 'Nandini Kistipati';
+console.log(`Now ${user.first} and ${user.last}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* OUTPUT
 {a: 5, b: 'hello'}a: 5add: ƒ (x,y)b: "hello"f: ƒ (x)[[Prototype]]: Object
 object.js:6 xx is type of object
